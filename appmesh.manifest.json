@@ -1,0 +1,28 @@
+{
+  "appName": "testing-appmesh",
+  "architecture": "microservice",
+  "modules": [
+    {
+      "id": "payments-stripe",
+      "version": "1.2.0"
+    },
+    {
+      "id": "notifications",
+      "version": "0.9.1"
+    },
+    {
+      "id": "file-storage",
+      "version": "1.1.0"
+    },
+    {
+      "id": "analytics",
+      "version": "1.0.0"
+    }
+  ],
+  "generatedAt": "2025-10-08T16:33:03.660Z",
+  "devPresets": {
+    "dockerCompose": true,
+    "envExample": true
+  },
+  "notes": "Generated with AppMesh. Local dev preset uses Docker containers for all services."
+}
